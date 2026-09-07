@@ -192,9 +192,9 @@ This extension uses third-party APIs for the latest conversion rates:
    - Requires an API key in Settings.
 
 5. **[Twelve Data](https://twelvedata.com/)**
-   - Uses the real-time `/exchange_rate` endpoint for supported forex and cryptocurrency pairs.
+   - Provides real-time exchange rates for supported forex and cryptocurrency pairs.
+   - Free tier: 8 API credits per minute, up to 800 per day ([pricing](https://twelvedata.com/pricing)).
    - Requires an API key in Settings.
-   - Pair responses are cached using the existing **Conversion Cache duration** setting.
 
 None of these APIs are affiliated with this extension. To use a different rate provider, or to suggest a new one, open a pull request.
 
